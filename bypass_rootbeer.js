@@ -1,3 +1,4 @@
+// frida -U -l bypass_rootbeer.js -f <package_name> --no-pause
 setImmediate(function() {
 	console.log("[*] Starting script ...");
 
